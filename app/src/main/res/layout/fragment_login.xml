@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:id="@+id/editTextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_80"
+        android:orientation="vertical">
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/login_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/primary_dark"
+            app:met_primaryColor="@color/primary_dark"
+            app:met_underlineColor="@color/primary_dark" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/pass_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/primary_dark"
+            app:met_primaryColor="@color/primary_dark"
+            app:met_underlineColor="@color/primary_dark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:divider="@drawable/divider"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <com.rey.material.widget.Button
+            android:id="@+id/button_login"
+            style="@style/SquareButton.Gren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/login"
+            android:textColor="@color/icons"
+            app:rd_delayClick="true" />
+
+        <com.rey.material.widget.Button
+            android:id="@+id/button_cancel"
+            style="@style/SquareButton.Gren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textColor="@color/icons"
+            app:rd_delayClick="true" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/progress_login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#50FFFFFF"
+        android:visibility="gone">
+
+
+        <com.rey.material.widget.ProgressView
+            android:id="@+id/progress_login"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            app:pv_circular="true"
+            app:pv_progressMode="indeterminate" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

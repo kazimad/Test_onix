@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1ab188</color>
+    <color name="primary_dark">#ff187b5a</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#8BC34A</color>
+    <color name="primary_text">#585858</color>
+    <color name="secondary_text">#727272</color>
+    <color name="dark_grey_in_profile">#535353</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="transparent">#00B6B6B6</color>
+    <color name="border">#d9d9d9</color>
+    <color name="settings_background">#f0f0f0</color>
+    <color name="black">#000000</color>
+    <color name="color_gray">#ffa6a6a6</color>
+    <color name="button_text_color">#FF2196F3</color>
+    <color name="color_white">#ffffffff</color>
+</resources>

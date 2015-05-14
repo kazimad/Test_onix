@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Test_onix</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- login activity -->
+    <string name="error_field_required">This field is required</string>
+    <string name="error_pass_length">Too short password</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="fragment_1">fragment_1</string>
+    <string name="fragment_2">fragment_2</string>
+    <string name="nothing_happens">fragment_2</string>
+    <string name="no_data_fragment_1">no data fragment 1</string>
+    <string name="no_data_fragment_2">no data fragment 2</string>
+    <string name="news_header">news header</string>
+    <string name="network_connection_failed">Network connection failed</string>
+
+
+    <string name="log_out">Log out</string>
+    <string name="cancel">cancel</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="forgot_pass">forgot pass</string>
+    <string name="forgot_login">forgot login</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+</resources>

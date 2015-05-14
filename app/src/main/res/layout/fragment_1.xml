@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_1_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+    <FrameLayout
+        android:id="@+id/progress_bar_layout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible">
+
+        <com.rey.material.widget.ProgressView
+            android:id="@+id/progress_pv_circular_1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            app:pv_circular="true"
+            app:pv_progressMode="indeterminate" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textViewfragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/no_data_fragment_1"
+        android:textColor="@color/primary_dark"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone" />
+</RelativeLayout>
